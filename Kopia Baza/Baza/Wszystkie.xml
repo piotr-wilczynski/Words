@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_21" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="Slowka">
+    <void property="primaryKey">
+     <object class="java.lang.Enum" id="Jezyk0" method="valueOf">
+      <class>Jezyk</class>
+      <string>Angielski</string>
+     </object>
+    </void>
+    <void property="slowka">
+     <array class="Slowko" length="7">
+      <void index="0">
+       <object class="Slowko">
+        <void property="jezyk">
+         <object idref="Jezyk0"/>
+        </void>
+        <void property="text">
+         <string>Lll</string>
+        </void>
+       </object>
+      </void>
+      <void index="1">
+       <object class="Slowko">
+        <void property="jezyk">
+         <object class="java.lang.Enum" id="Jezyk1" method="valueOf">
+          <class>Jezyk</class>
+          <string>Francuski</string>
+         </object>
+        </void>
+        <void property="text">
+         <string>lj</string>
+        </void>
+       </object>
+      </void>
+      <void index="2">
+       <object class="Slowko">
+        <void property="jezyk">
+         <object class="java.lang.Enum" id="Jezyk2" method="valueOf">
+          <class>Jezyk</class>
+          <string>Hiszpański</string>
+         </object>
+        </void>
+        <void property="text">
+         <string>j</string>
+        </void>
+       </object>
+      </void>
+      <void index="3">
+       <object class="Slowko">
+        <void property="jezyk">
+         <object class="java.lang.Enum" id="Jezyk3" method="valueOf">
+          <class>Jezyk</class>
+          <string>Niemiecki</string>
+         </object>
+        </void>
+        <void property="text">
+         <string>h</string>
+        </void>
+       </object>
+      </void>
+      <void index="4">
+       <object class="Slowko">
+        <void property="text">
+         <string>hk</string>
+        </void>
+       </object>
+      </void>
+      <void index="5">
+       <object class="Slowko">
+        <void property="jezyk">
+         <object class="java.lang.Enum" id="Jezyk4" method="valueOf">
+          <class>Jezyk</class>
+          <string>Szwedzki</string>
+         </object>
+        </void>
+        <void property="text">
+         <string>gk</string>
+        </void>
+       </object>
+      </void>
+      <void index="6">
+       <object class="Slowko">
+        <void property="jezyk">
+         <object class="java.lang.Enum" id="Jezyk5" method="valueOf">
+          <class>Jezyk</class>
+          <string>Włoski</string>
+         </object>
+        </void>
+        <void property="text">
+         <string>fsd</string>
+        </void>
+       </object>
+      </void>
+     </array>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Slowka">
+    <void property="primaryKey">
+     <object idref="Jezyk0"/>
+    </void>
+    <void property="slowka">
+     <array class="Slowko" length="7">
+      <void index="0">
+       <object class="Slowko">
+        <void property="jezyk">
+         <object idref="Jezyk0"/>
+        </void>
+        <void property="text">
+         <string>Lll</string>
+        </void>
+       </object>
+      </void>
+      <void index="1">
+       <object class="Slowko">
+        <void property="jezyk">
+         <object idref="Jezyk1"/>
+        </void>
+        <void property="text">
+         <string>lj</string>
+        </void>
+       </object>
+      </void>
+      <void index="2">
+       <object class="Slowko">
+        <void property="jezyk">
+         <object idref="Jezyk2"/>
+        </void>
+        <void property="text">
+         <string>jhghgfhf</string>
+        </void>
+       </object>
+      </void>
+      <void index="3">
+       <object class="Slowko">
+        <void property="jezyk">
+         <object idref="Jezyk3"/>
+        </void>
+        <void property="text">
+         <string>h</string>
+        </void>
+       </object>
+      </void>
+      <void index="4">
+       <object class="Slowko">
+        <void property="text">
+         <string>hk</string>
+        </void>
+       </object>
+      </void>
+      <void index="5">
+       <object class="Slowko">
+        <void property="jezyk">
+         <object idref="Jezyk4"/>
+        </void>
+        <void property="text">
+         <string>gk</string>
+        </void>
+       </object>
+      </void>
+      <void index="6">
+       <object class="Slowko">
+        <void property="jezyk">
+         <object idref="Jezyk5"/>
+        </void>
+        <void property="text">
+         <string>fsd</string>
+        </void>
+       </object>
+      </void>
+     </array>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Slowka">
+    <void property="primaryKey">
+     <object idref="Jezyk0"/>
+    </void>
+    <void property="slowka">
+     <array class="Slowko" length="7">
+      <void index="0">
+       <object class="Slowko">
+        <void property="jezyk">
+         <object idref="Jezyk0"/>
+        </void>
+        <void property="text">
+         <string>Lll</string>
+        </void>
+       </object>
+      </void>
+      <void index="1">
+       <object class="Slowko">
+        <void property="jezyk">
+         <object idref="Jezyk1"/>
+        </void>
+        <void property="text">
+         <string>lj</string>
+        </void>
+       </object>
+      </void>
+      <void index="2">
+       <object class="Slowko">
+        <void property="jezyk">
+         <object idref="Jezyk2"/>
+        </void>
+        <void property="text">
+         <string>jdadsa</string>
+        </void>
+       </object>
+      </void>
+      <void index="3">
+       <object class="Slowko">
+        <void property="jezyk">
+         <object idref="Jezyk3"/>
+        </void>
+        <void property="text">
+         <string>h</string>
+        </void>
+       </object>
+      </void>
+      <void index="4">
+       <object class="Slowko">
+        <void property="text">
+         <string>hk</string>
+        </void>
+       </object>
+      </void>
+      <void index="5">
+       <object class="Slowko">
+        <void property="jezyk">
+         <object idref="Jezyk4"/>
+        </void>
+        <void property="text">
+         <string>gk</string>
+        </void>
+       </object>
+      </void>
+      <void index="6">
+       <object class="Slowko">
+        <void property="jezyk">
+         <object idref="Jezyk5"/>
+        </void>
+        <void property="text">
+         <string>fsd</string>
+        </void>
+       </object>
+      </void>
+     </array>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_21" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="Slowka">
+    <void property="primaryKey">
+     <object class="java.lang.Enum" id="Jezyk0" method="valueOf">
+      <class>Jezyk</class>
+      <string>Polski</string>
+     </object>
+    </void>
+    <void property="slowka">
+     <array class="Slowko" length="2">
+      <void index="0">
+       <object class="Slowko">
+        <void property="text">
+         <string>Dom</string>
+        </void>
+       </object>
+      </void>
+      <void index="1">
+       <object class="Slowko">
+        <void property="jezyk">
+         <object class="java.lang.Enum" id="Jezyk1" method="valueOf">
+          <class>Jezyk</class>
+          <string>Angielski</string>
+         </object>
+        </void>
+        <void property="text">
+         <string>House</string>
+        </void>
+       </object>
+      </void>
+     </array>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Slowka">
+    <void property="primaryKey">
+     <object idref="Jezyk0"/>
+    </void>
+    <void property="slowka">
+     <array class="Slowko" length="2">
+      <void index="0">
+       <object class="Slowko">
+        <void property="text">
+         <string>Mama</string>
+        </void>
+       </object>
+      </void>
+      <void index="1">
+       <object class="Slowko">
+        <void property="jezyk">
+         <object idref="Jezyk1"/>
+        </void>
+        <void property="text">
+         <string>Mother</string>
+        </void>
+       </object>
+      </void>
+     </array>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Slowka">
+    <void property="primaryKey">
+     <object idref="Jezyk0"/>
+    </void>
+    <void property="slowka">
+     <array class="Slowko" length="2">
+      <void index="0">
+       <object class="Slowko">
+        <void property="text">
+         <string>Tata</string>
+        </void>
+       </object>
+      </void>
+      <void index="1">
+       <object class="Slowko">
+        <void property="jezyk">
+         <object idref="Jezyk1"/>
+        </void>
+        <void property="text">
+         <string>Farher</string>
+        </void>
+       </object>
+      </void>
+     </array>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Slowka">
+    <void property="primaryKey">
+     <object idref="Jezyk0"/>
+    </void>
+    <void property="slowka">
+     <array class="Slowko" length="2">
+      <void index="0">
+       <object class="Slowko">
+        <void property="text">
+         <string>Zamek</string>
+        </void>
+       </object>
+      </void>
+      <void index="1">
+       <object class="Slowko">
+        <void property="jezyk">
+         <object idref="Jezyk1"/>
+        </void>
+        <void property="text">
+         <string>Castle</string>
+        </void>
+       </object>
+      </void>
+     </array>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
